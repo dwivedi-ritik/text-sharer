@@ -69,7 +69,14 @@
     text-align: center;
     padding: 4%;
 }
+.timer-comp{
+    font-size: 8px;
+}
 
+.expired-code{
+    font-size: 8px;
+    color:red;
+}
 @media (min-width: 700px) {
     .page-bg{
         margin: 5% 15%;
