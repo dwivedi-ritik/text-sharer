@@ -1,9 +1,13 @@
 import React from 'react'
 import InputBar from '../component/input'
+import Head from "next/head"
 
 const home = () => {
   return (
     <React.Fragment>
+      <Head>
+        <title>Text Share App</title>
+      </Head>
       <div className="page-bg">
         <div className="arranger">
           <div className="heading">
