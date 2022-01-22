@@ -10,7 +10,6 @@
     max-width: 480px;
     height: auto;
     font-size: 36px;
-    font-family:monospace;
 }
 
 .heading-desc{
@@ -18,7 +17,6 @@
     min-width: 280px;
     max-width: 480px;
     height: auto;
-    font-size: 14;
 }
 .inp-btn-box form{
     display: flex;
@@ -47,7 +45,8 @@
 .res-bar {
     margin-top: 90px;
     width: 100%;
-    height: 60px;
+    min-height: 60px;
+    height: auto;
     background-color: white;
     border: 3px solid black;
     position: relative;

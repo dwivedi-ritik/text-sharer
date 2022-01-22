@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;400&family=Ubuntu+Mono&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Barlow;
+   font-family: Barlow
 }
 
 a {

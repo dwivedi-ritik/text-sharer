@@ -1,4 +1,3 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import { createClient } from "redis"
 
 const client = createClient({
@@ -36,5 +35,4 @@ export default async function handler(req, res) {
   } catch (e) {
     console.error(e)
   }
-  // res.status(200).json({ name: 'John Doe' })
 }
