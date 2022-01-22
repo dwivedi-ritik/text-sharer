@@ -5,7 +5,7 @@ const DescribeTimer = (props) => {
     return (
         <div className="timer-comp">
             <p>Code will expire after 120 seconds </p>
-            <p>Total time left {props.time} seconds</p>
+            <p>Total time left {120 - props.time} seconds</p>
         </div>
     )
 }
