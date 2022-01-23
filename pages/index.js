@@ -15,8 +15,7 @@ const home = () => {
           </div>
           <div className="heading-desc">
             <p>Text sharer is simple web app made using next js. It is uses minimal design and
-              redis lab as a database to store text and numeric code.
-              Welcome to the one of a kind club!</p>
+              redis lab as a database to store text and numeric code!</p>
             <ul>
               <li>Paste your text </li>
               <li>or Paste the code to retrive text</li>
