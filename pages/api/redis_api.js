@@ -5,9 +5,9 @@ console.log(process.env.NAME)
 const client = createClient({
   socket: {
     port: 12332,
-    host: "redis-12332.c212.ap-south-1-1.ec2.cloud.redislabs.com"
+    host: process.env.ENDPOINT
   },
-  password: 'DKpPS8NXpH3IVZCphq2m2GVooXtjJASQ'
+  password: process.env.PASSWORD
 
 })
 
